@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WanderNote — Travel Journal</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header id="topbar">
+      <h1 class="logo">WanderNote</h1>
+      <nav class="links" aria-label="Primary">
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">Destinations</a>
+        <a class="nav-link" href="#">Tips</a>
+        <a class="nav-link" href="#">About</a>
+      </nav>
+    </header>
+
+    <section id="hero" aria-labelledby="hero-headline">
+      <div class="hero-inner">
+        <img class="hero-img" src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop" alt="Traveler overlooking mountains" />
+        <h2 id="hero-headline" class="headline">Stories from the road</h2>
+        <p class="sub">Notes, photos, and pocket itineraries.</p>
+      </div>
+    </section>
+
+    <main id="content">
+      <section class="left-col">
+        <article class="post card">
+          <h3 class="post-title">Kyoto in 48 Hours</h3>
+          <p class="post-meta">
+            <time datetime="2025-05">May 2025</time> · Asia · Budget
+          </p>
+          <figure class="post-media">
+            <img class="post-img" src="https://picsum.photos/id/1016/800/500" alt="Kyoto trip collage" />
+            <figcaption class="post-body">
+              Temple hopping, alley ramen, and morning markets.
+            </figcaption>
+          </figure>
+        </article>
+
+        <article class="post card">
+          <h3 class="post-title">Lisbon Hill Walk</h3>
+          <p class="post-meta">
+            <time datetime="2025-04">April 2025</time> · Europe · Walkable
+          </p>
+          <figure class="post-media">
+            <img class="post-img" src="https://picsum.photos/id/1035/800/500" alt="Lisbon city view" />
+            <figcaption class="post-body">
+              Tiles, trams, and sunset at Miradouro.
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+
+      <section class="right-col">
+        <aside class="panel" role="complementary" aria-labelledby="tags-title">
+          <h2 class="panel-title" id="tags-title">Popular Tags</h2>
+          <nav class="tag-list" aria-label="Popular tags">
+            <a href="#" class="tag">streetfood</a>
+            <a href="#" class="tag">itinerary</a>
+            <a href="#" class="tag">budget</a>
+          </nav>
+        </aside>
+      </section>
+    </main>
+
+    <footer id="bottombar">
+      <p class="copy">© <time datetime="2025">2025</time> WanderNote</p>
+    </footer>
+  </body>
+</html>
